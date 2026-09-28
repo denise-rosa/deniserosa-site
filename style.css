@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F5F9;
+    font-family: Arial, sans-serif;
+    color: #101C30;
+    margin: 0;
+}
+
+nav {
+    background-color: #101C30;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0D9488;
+}
+
+nav a.ativo {
+    color: #0D9488;
+    font-weight: 600;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.apresentacao {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(16, 28, 48, 0.08);
+}
+
+.boas-vindas {
+    color: #0D9488;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.apresentacao h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.descricao {
+    margin-top: 10px;
+}
+
+.resumo {
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.botao {
+    background-color: #0D9488;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #101C30;
+}
+
+.menu-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.conteudo-pagina {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(16, 28, 48, 0.08);
+}
+
+.conteudo-pagina p {
+    line-height: 1.6;
+}
