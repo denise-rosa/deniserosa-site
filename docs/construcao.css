@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+    color: #101C30;
+}
+
+.pagina-construcao {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cartao-construcao {
+    background-color: #FFFFFF;
+    max-width: 800px;
+    padding: 48px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(16, 28, 48, 0.10);
+}
+
+.status {
+    display: inline-block;
+    background-color: #E6FFFB;
+    color: #0D9488;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cartao-construcao h1 {
+    font-size: 42px;
+    margin: 24px 0 12px;
+}
+
+.cartao-construcao h2 {
+    font-size: 22px;
+    color: #101C30;
+    margin: 0 0 18px;
+}
+
+.mensagem {
+    line-height: 1.6;
+    max-width: 650px;
+    margin: 0 0 18px;
+}
+
+.dominio {
+    color: #64748B;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .pagina-construcao {
+        padding: 20px;
+    }
+
+    .cartao-construcao {
+        padding: 32px 24px;
+    }
+
+    .cartao-construcao h1 {
+        font-size: 34px;
+    }
+
+    .cartao-construcao h2 {
+        font-size: 19px;
+    }
+}
